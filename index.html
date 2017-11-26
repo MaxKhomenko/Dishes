@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+	<link href="css/media-queries.css" type="text/css" rel="stylesheet">
+	<script src="js/myscripts.js"></script>
+
+	<title>Посуд</title>
+</head>
+
+<body>
+
+
+
+<header>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="js/jquery.backgroundvideo.min.js"></script>
+	<script>
+		 $(document).ready(function() {
+			 var videobackground = new $.backgroundVideo($('body'), {
+				 "align": "centerXY",
+				 "width": 1280,
+				 "height": 720,
+				 "path": "media/",
+				 "filename": "cloud",
+				 "types": ["mp4","ogg","webm"]
+			 });
+		 });
+	</script>
+
+	<nav class="menu" role="navigation">
+		<input type="checkbox" name="toggle" id="phone-menu" class="toggleMenu">
+		<label for="phone-menu" class="toggleMenu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+		<ul>
+			<li><a href="#головна">головна</a></li>
+			<li><a href="#Our_partners">наші партнери</a></li>
+			<li><a href="#contacts">контакти</a></li>
+
+		</ul>
+	</nav>
+
+	<div class="container">
+		<div class="main_name">
+			<h1>Склад-магазин<br>"Посуд та Сувеніри"</h1>
+		</div>
+
+
+	</div>
+</header>
+
+<main>
+	<section>
+		<div class="container">
+			<h2>наші партнери<h2>
+		</div>
+	</section>
+</main>
+
+<footer>
+	<div class="container">
+		<address>
+			<div class="dishes-address">
+				<ul>
+					<li>м.Біла Церква, вул. Січневого прориву 48а</li>
+					<li><a href="tel:0456347818">Стаціонарний телефон: (0456) 347818</a></li>
+					<li><a href="tel:+380672351858">Директор: 067 235 18 58</a></li>
+					<li><a href="tel:+380631165074">Склад: 063 11 65 074</a></li>
+					<li><a href="mailto:juliet0000@mail.ru ">E-mail: juliet0000@ukr.net</a></li>
+				</ul>
+			</div>
+		</address>
+	</div>
+</footer>
+
+</body>
+</html>

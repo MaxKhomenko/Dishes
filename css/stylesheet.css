@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: center top / cover;
+	height: 900px;
+	overflow: hidden;
+	padding-bottom: 130px;
+	position: fixed;
+	width: 100%;
+}
+.container {
+	display: flex;
+	max-width: 930px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main_name h1 {
+	color: #fff;
+	font-size: 70px;
+	text-transform: uppercase;
+	text-align: center;
+}
